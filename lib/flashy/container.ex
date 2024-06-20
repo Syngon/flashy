@@ -20,7 +20,7 @@ defmodule Flashy.Container do
       assigns
       |> Map.put(:disconnected_notification, disconnected_notification)
       |> extend_class(
-        "pointer-events-none fixed py-3 flex flex-col gap-3 z-100 items-end max-h-screen right-0 top-0"
+        "pointer-events-none fixed py-3 flex flex-col gap-3 z-50 items-end max-h-screen right-0 top-0"
       )
 
     ~H"""
